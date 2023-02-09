@@ -9,4 +9,77 @@ body {
     min-height: 100vh;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #c0c0bd;
+}
+
+section {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 92vh;
+}
+
+footer {
+    flex: 1;
+    min-height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #313131;
+}
+
+a {
+    text-decoration: none;
+    color: #fffffc;
+}
+
+a:hover {
+    color: #c5c5c4;
+}
+
+section .case {
+    height: fit-content;
+    width: fit-content;
+    padding: 25px;
+    background-color: #313131;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.case .screen,
+.case .first-row,
+.case .second-row,
+.case .third-row,
+.case .fourth-row,
+.case .fifth-row {
+    width: 450px;
+    border-radius: 25px;
+    border: 5px dotted white;
+}
+
+.case .screen {
+    height: 200px;
+}
+
+.case .first-row,
+.case .second-row,
+.case .third-row,
+.case .fourth-row,
+.case .fifth-row{
+    height: 100px;
+}
+footer .github-logo {
+    height: 25px;
+    width: 25px;
+    filter: invert(90%);
+    margin-left: 5px;
+}
+
+footer .text {
+    color: #fffffc;
 }
