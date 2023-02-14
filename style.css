@@ -63,11 +63,11 @@ section .case {
     gap: none;
 }
 
-.ops {
+.operations {
     background-color: orange;
 }
 
-.ops:hover,
+.operations:hover,
 .num:hover,
 .switch:hover {
     font-weight: bolder;
@@ -89,12 +89,18 @@ section .case {
 .case .third-row,
 .case .fourth-row,
 .case .fifth-row {
-    width: 450px;
+    min-width: 450px;
     border-radius: 25px;
 }
 
-.case .screen {
+.screen {
+    max-width: fit-content;
     height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #fffffc;
+    font-size: 75px;
 }
 
 .case .first-row,
