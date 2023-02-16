@@ -102,6 +102,9 @@ section .case {
     color: #fffffc;
     font-size: 75px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #2a2a2a;
+    margin-bottom: 5px;
+    padding: 0 5px;
 }
 
 .case .first-row,
