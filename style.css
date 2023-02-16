@@ -101,6 +101,7 @@ section .case {
     align-items: flex-end;
     color: #fffffc;
     font-size: 75px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .case .first-row,
